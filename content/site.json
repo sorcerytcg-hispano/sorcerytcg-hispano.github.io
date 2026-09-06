@@ -1,6 +1,6 @@
 {
   "name": "Comunidad Hispana de Sorcery",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "updated": "2026-09-06",
   "discord": "https://discord.gg/skHXkbXmgF",
   "guide": "https://docs.google.com/document/d/1U6A4QE7tevcJzgCcfsFCvvpv282HIboWbZGCiBJVyp4/edit?tab=t.0",
@@ -8,7 +8,7 @@
   "navigation": [
     [
       "start",
-      "Primeros pasos"
+      "Empieza aquí"
     ],
     [
       "online",
@@ -16,27 +16,39 @@
     ],
     [
       "communities",
-      "Comunidades"
+      "Jugar en tu zona"
+    ],
+    [
+      "rules",
+      "Reglas y Codex"
+    ],
+    [
+      "decks",
+      "Tu siguiente mazo"
+    ],
+    [
+      "deckbuilding",
+      "Cartas y mazos"
     ],
     [
       "league",
       "Liga Hispana"
     ],
     [
-      "rules",
-      "Reglas y cartas"
+      "creators",
+      "Lecturas y creadores"
     ],
     [
       "stores",
       "Dónde comprar"
     ],
     [
-      "tools",
-      "Herramientas"
+      "dust",
+      "Qué es Dust"
     ],
     [
-      "creators",
-      "Creadores"
+      "tools",
+      "Herramientas de mesa"
     ],
     [
       "resources",
@@ -44,6 +56,17 @@
     ]
   ],
   "platforms": [
+    {
+      "name": "PlaySorceryOnline",
+      "description": "Juega en el navegador y utiliza sus herramientas de draft, sellado, creación de mazos y repeticiones.",
+      "links": [
+        {
+          "label": "Abrir PlaySorceryOnline",
+          "url": "https://playsorceryonline.com/"
+        }
+      ],
+      "tag": "Gratis"
+    },
     {
       "name": "Valkenhall",
       "description": "Juega desde el navegador o con su aplicación dedicada. Una plataforma comunitaria para preparar la mesa y compartir partida.",
@@ -62,17 +85,6 @@
         {
           "label": "Abrir Realms",
           "url": "https://realms.cards/"
-        }
-      ],
-      "tag": "Gratis"
-    },
-    {
-      "name": "Play Sorcery Online",
-      "description": "Juega en el navegador y utiliza sus herramientas de draft, sellado, creación de mazos y repeticiones.",
-      "links": [
-        {
-          "label": "Abrir Play Sorcery Online",
-          "url": "https://playsorceryonline.com/"
         }
       ],
       "tag": "Gratis"
@@ -280,28 +292,8 @@
   ],
   "rules": [
     {
-      "name": "Guía de inicio de Marc",
-      "description": "Una guía en español y en progreso, con recursos para aprender y una recopilación de tiendas.",
-      "links": [
-        {
-          "label": "Leer la guía en español",
-          "url": "https://docs.google.com/document/d/1U6A4QE7tevcJzgCcfsFCvvpv282HIboWbZGCiBJVyp4/edit?tab=t.0"
-        }
-      ]
-    },
-    {
-      "name": "Aprende con la web oficial",
-      "description": "Tutoriales de iniciación y acceso a los recursos de juego. Contenido en inglés.",
-      "links": [
-        {
-          "label": "Ver los tutoriales",
-          "url": "https://sorcerytcg.com/get-started/player"
-        }
-      ]
-    },
-    {
       "name": "Reglamento oficial",
-      "description": "Las reglas completas del juego, en inglés. Consulta también las aclaraciones de cada carta.",
+      "description": "Explica la estructura de la partida, el turno y las reglas generales. Tenlo a mano durante tus primeras partidas. Contenido en inglés.",
       "links": [
         {
           "label": "Abrir el reglamento",
@@ -310,44 +302,20 @@
       ]
     },
     {
-      "name": "Codex y preguntas frecuentes",
-      "description": "Definiciones e interacciones. Las preguntas sobre cartas concretas se consultan en sus fichas oficiales.",
+      "name": "La web oficial de Sorcery",
+      "description": "Además de las reglas, permite consultar las cartas, crear y compartir mazos y llevar un registro de tu colección. Las listas publicadas por jugadores son mazos comunitarios.",
       "links": [
         {
-          "label": "Consultar el Codex",
-          "url": "https://sorcerytcg.com/codex"
+          "label": "Explorar la web oficial",
+          "url": "https://sorcerytcg.com/"
         },
         {
-          "label": "Buscar una carta",
+          "label": "Consultar las cartas",
           "url": "https://sorcerytcg.com/cards"
-        }
-      ]
-    },
-    {
-      "name": "Moxfield para Sorcery",
-      "description": "Buscador de cartas con parámetros de búsqueda avanzados.",
-      "links": [
+        },
         {
-          "label": "Buscar en Moxfield",
-          "url": "https://sorcery.moxfield.com/"
-        }
-      ]
-    },
-    {
-      "name": "Mazos y bases de datos",
-      "description": "Consulta cartas, explora listas y prepara tu próximo mazo.",
-      "links": [
-        {
-          "label": "Mazos oficiales",
+          "label": "Ver mazos comunitarios",
           "url": "https://sorcerytcg.com/decks"
-        },
-        {
-          "label": "Sorcerycard.io",
-          "url": "https://sorcerycard.io/"
-        },
-        {
-          "label": "Cursed Realm",
-          "url": "https://cursedrealm.org/"
         }
       ]
     }
@@ -398,24 +366,6 @@
         {
           "label": "Sorcery Card Maker",
           "url": "https://sorcery-card-maker.dynv6.net/"
-        }
-      ]
-    },
-    {
-      "name": "Seguimiento de precios",
-      "description": "Consulta referencias de mercado por carta y colección.",
-      "links": [
-        {
-          "label": "Sorcerer’s Ledger",
-          "url": "https://www.sorcerersledger.com/"
-        },
-        {
-          "label": "TCG Index",
-          "url": "https://tcgindex.io/sorcery"
-        },
-        {
-          "label": "Guías de TCGplayer",
-          "url": "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/sorcery-contested-realm/price-guides"
         }
       ]
     }
@@ -514,8 +464,8 @@
       ]
     },
     {
-      "name": "Sorcerer’s Summit",
-      "description": "Comunidad y liga online.",
+      "name": "Sorcerers Summit",
+      "description": "Comunidad internacional en inglés, con competición organizada, temporadas y su propio sistema competitivo.",
       "links": [
         {
           "label": "Entrar al Discord",
@@ -578,8 +528,8 @@
       ]
     },
     {
-      "name": "Noticias, eventos y Dust",
-      "description": "Sigue las novedades del juego, encuentra eventos y conoce su sistema de recompensas.",
+      "name": "Noticias y eventos",
+      "description": "Sigue las novedades del juego y encuentra eventos del Sorcery Play Network.",
       "links": [
         {
           "label": "Noticias",
@@ -588,10 +538,6 @@
         {
           "label": "Eventos",
           "url": "https://play.sorcerytcg.com/events?radius=250"
-        },
-        {
-          "label": "Dust",
-          "url": "https://sorcerytcg.com/dust"
         }
       ]
     }
@@ -632,13 +578,9 @@
       ]
     },
     {
-      "name": "Lecturas y comunidad",
-      "description": "Artículos de estrategia, conversación y una guía de compra.",
+      "name": "Conversación y guías de compra",
+      "description": "Conversaciones entre jugadores y una guía para conocer los productos del juego.",
       "links": [
-        {
-          "label": "Eternal Durdles",
-          "url": "https://eternaldurdles.com/category/sorcery-contested-realm/"
-        },
         {
           "label": "Reddit",
           "url": "https://www.reddit.com/r/SorceryTCG/"
@@ -877,6 +819,157 @@
         "Se espera que todos los participantes actúen con deportividad, respeten las reglas y ayuden a los jugadores menos experimentados.",
         "La manipulación de resultados, los acuerdos para amañar partidas o cualquier actuación de mala fe podrán implicar la expulsión del torneo. Las decisiones del organizador sobre incidencias y reglas serán definitivas.",
         "Estas normas están adaptadas de las utilizadas por la Sorcery: Contested Realm League organizada por @Ira."
+      ]
+    }
+  ],
+  "video": {
+    "id": "OXE2UF6nKPY",
+    "url": "https://www.youtube.com/watch?v=OXE2UF6nKPY",
+    "title": "Introducción a Sorcery: Contested Realm"
+  },
+  "precons": [
+    {
+      "name": "Beta · Los cuatro elementos",
+      "description": "Cuatro mazos, cada uno centrado en un elemento: aire, tierra, fuego o agua. Un punto de partida sencillo para familiarizarte con el turno, los hechizos y el movimiento por el reino.",
+      "links": [
+        {
+          "label": "Conocer los precons de Beta",
+          "url": "https://sorcerytcg.com/news/introducing-the-beta-elemental-preconstructed-decks"
+        }
+      ]
+    },
+    {
+      "name": "Gothic · Prophets of Doom",
+      "description": "Cuatro mazos de dos elementos, con ángeles, demonios y otras criaturas de Gothic. Otra forma de aprender con mazos preparados y probar distintas maneras de jugar.",
+      "links": [
+        {
+          "label": "Conocer los precons de Gothic",
+          "url": "https://sorcerytcg.com/product/gothic"
+        }
+      ]
+    }
+  ],
+  "deckGuides": [
+    {
+      "name": "Mazos comunitarios recomendados",
+      "description": "Cuando conozcas tus precons, prueba una lista seleccionada por el equipo de Sorcerers Summit. Empieza por una que te interese y aprende qué intenta hacer antes de cambiar cartas.",
+      "links": [
+        {
+          "label": "Ver los mazos recomendados",
+          "url": "https://www.sorcererssummit.com/deck-rec"
+        }
+      ]
+    },
+    {
+      "name": "Listas con resultados competitivos",
+      "description": "El Top 8 de Sorcerers Summit reúne listas con buenos resultados en competiciones importantes. Mira la fecha, el formato y el evento para entender qué está funcionando en cada momento.",
+      "links": [
+        {
+          "label": "Explorar el Top 8",
+          "url": "https://www.sorcererssummit.com/top-8"
+        }
+      ]
+    }
+  ],
+  "deckTools": [
+    {
+      "name": "Web oficial de Sorcery",
+      "description": "Base de datos de cartas, construcción de mazos y registro de la colección en el mismo sitio.",
+      "links": [
+        {
+          "label": "Cartas",
+          "url": "https://sorcerytcg.com/cards"
+        },
+        {
+          "label": "Crear un mazo",
+          "url": "https://sorcerytcg.com/decks/create"
+        },
+        {
+          "label": "Mi colección",
+          "url": "https://sorcerytcg.com/collection"
+        }
+      ]
+    },
+    {
+      "name": "Moxfield para Sorcery",
+      "description": "Base de datos y búsqueda avanzada para encontrar cartas que encajen en tu mazo.",
+      "links": [
+        {
+          "label": "Abrir Moxfield",
+          "url": "https://sorcery.moxfield.com/"
+        }
+      ]
+    },
+    {
+      "name": "Sorcerycard.io",
+      "description": "Base de datos de cartas y herramientas para construir y consultar mazos.",
+      "links": [
+        {
+          "label": "Abrir Sorcerycard.io",
+          "url": "https://sorcerycard.io/"
+        }
+      ]
+    },
+    {
+      "name": "Cursed Realm",
+      "description": "Base de datos de cartas y constructor de mazos de la comunidad.",
+      "links": [
+        {
+          "label": "Abrir Cursed Realm",
+          "url": "https://cursedrealm.org/"
+        }
+      ]
+    }
+  ],
+  "priceTools": [
+    {
+      "name": "Seguimiento de precios",
+      "description": "Consulta referencias de mercado por carta y colección.",
+      "links": [
+        {
+          "label": "Sorcerer’s Ledger",
+          "url": "https://www.sorcerersledger.com/"
+        },
+        {
+          "label": "TCG Index",
+          "url": "https://tcgindex.io/sorcery"
+        },
+        {
+          "label": "Guías de TCGplayer",
+          "url": "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/sorcery-contested-realm/price-guides"
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "name": "All Things Sorcery",
+      "description": "Artículos sobre estrategia, mazos, coleccionismo, eventos y crónicas de torneos. Un lugar al que volver para seguir aprendiendo y estar al día con la comunidad.",
+      "links": [
+        {
+          "label": "Leer All Things Sorcery",
+          "url": "https://allthingssorcery.com/"
+        }
+      ]
+    },
+    {
+      "name": "Eternal Durdles",
+      "description": "Artículos de estrategia, análisis de mazos y experiencias de competición. Incluye una sección dedicada a Sorcery.",
+      "links": [
+        {
+          "label": "Leer Eternal Durdles",
+          "url": "https://eternaldurdles.com/"
+        }
+      ]
+    },
+    {
+      "name": "Collector Arthouse",
+      "description": "Una referencia para explorar el arte, los artistas, la historia y el coleccionismo de Sorcery, con artículos y entrevistas.",
+      "links": [
+        {
+          "label": "Explorar Collector Arthouse",
+          "url": "https://www.collectorarthouse.com/"
+        }
       ]
     }
   ]

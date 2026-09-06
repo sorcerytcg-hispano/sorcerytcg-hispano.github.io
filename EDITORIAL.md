@@ -23,3 +23,11 @@ GitHub reported `has_pages: true` before development. The exact Pages source con
 ## Link checks
 
 Automated HTTP checks were run for store, marketplace, platform, and league URLs. White Rabbit's old category returned 404 and was replaced with its verified current category: https://shop.whiterabbit-cgs.de/Sorcery-Contested-Realm_1 . Rubble was upgraded to its verified HTTPS destination. Some sites blocked automated requests or timed out, including Just Freak, Distrito Zero, LigaSorcery, Challonge, and TCGplayer; these supplied links remain and are not presented as fully tested. Play Sorcery Online and Sorcery TCG Europe were also corroborated through web search.
+
+## Version 0.2.0
+
+The owner requested a blue palette and an original guided beginner journey. The introductory video, Beta/Gothic precons, first games, official rules/Codex, recommended community lists, competitive lists, deckbuilding resources, readings, purchases, and Dust now form the main progression. Marc is acknowledged twice as a source, not the main entry point. Price tools live with purchases. Platform and store orders match the owner's requested sequence.
+
+New sources: the supplied video https://www.youtube.com/watch?v=OXE2UF6nKPY ; recommended and competitive decks at https://www.sorcererssummit.com/deck-rec and https://www.sorcererssummit.com/top-8 ; https://allthingssorcery.com/ ; https://eternaldurdles.com/ ; https://www.collectorarthouse.com/ . The official homepage confirms card, deckbuilding, and collection tools. Official Beta and Gothic pages support precon descriptions. The July 2026 announcement https://sorcerytcg.com/news/all-rise-new-dust-rewards-are-here explicitly identifies the four Courts as Dust Store exclusives.
+
+YouTube playback is embedded without autoplay and includes an external fallback. Playback can be blocked by browser privacy settings, local file origins, or the video owner's embedding settings. No playback test is claimed. The current official Dust landing page showed a maintenance placeholder for its store link, so the page links to the program and exclusive-card announcement rather than an invented store URL.

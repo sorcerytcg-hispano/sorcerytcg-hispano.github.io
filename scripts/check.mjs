@@ -22,3 +22,14 @@ assert.equal(data.countries.length, 5);
 assert.equal(data.platforms.length, 4);
 assert(data.leagueRules.some(block => block.title === 'Reglas de las partidas'));
 console.log('Static page checked: local assets, navigation anchors, content structure, and language metadata.');
+
+assert.deepEqual(data.platforms.map(platform => platform.name), ['PlaySorceryOnline', 'Valkenhall', 'Realms', 'Tabletop Simulator']);
+assert(!/mazos oficiales/i.test(html));
+assert.equal((html.match(/<strong>Marc<\/strong>/g) || []).length, 2);
+assert(html.includes('youtube-nocookie.com/embed/OXE2UF6nKPY'));
+assert(html.includes('https://www.sorcererssummit.com/deck-rec'));
+assert(html.includes('https://www.sorcererssummit.com/top-8'));
+const shopLabels = ['<summary>Mercados de cartas', '<summary>Tiendas de Europa', '<summary>Tiendas de España', '<summary>Tiendas de Estados Unidos'];
+assert(shopLabels.every((label, index) => index === 0 || html.indexOf(label) > html.indexOf(shopLabels[index - 1])));
+assert(!data.tools.some(tool => tool.name === 'Seguimiento de precios'));
+console.log('Beginner flow, platform order, store order, credits, and video embed checked.');

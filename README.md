@@ -18,6 +18,8 @@ The generated `index.html` is tracked so that GitHub Pages can serve the reposit
 
 ## Review before publishing
 
-Version 0.1.0 is delivered on a review branch. It must not be merged or published until the owner has reviewed it. No Cloudflare Worker, D1 database, account system, or API backend is involved.
+Version 0.2.0 is delivered on a review branch. It must not be merged or published until the owner has reviewed it. No Cloudflare Worker, D1 database, account system, or API backend is involved.
 
 See `EDITORIAL.md` for source provenance and unresolved content questions. See `CREDITS.md` for graphic assets and font attribution. Third-party assets retain their respective rights.
+
+Export a single-file preview with `node scripts/export-preview.mjs /absolute/path/preview.html`. The YouTube video and external links require an internet connection.
