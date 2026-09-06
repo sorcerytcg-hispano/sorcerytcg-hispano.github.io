@@ -1,0 +1,10 @@
+{
+  "name": "sorcery-hispanic-community",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}

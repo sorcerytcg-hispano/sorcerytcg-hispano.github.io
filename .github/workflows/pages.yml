@@ -1,0 +1,22 @@
+name: Validate static guide
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v6
+      - name: Generate and validate the page
+        run: |
+          node scripts/build.mjs
+          node scripts/check.mjs
+          git diff --exit-code -- index.html
