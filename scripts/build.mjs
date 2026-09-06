@@ -99,16 +99,20 @@ const html = `<!doctype html>
     <details><summary>Normas de la liga</summary><div class="details-content"><p class="section-intro">Normas facilitadas por la organización. Consulta la convocatoria de cada torneo para conocer sus fechas y cualquier actualización.</p>${data.leagueRules.map(block => `<div class="rule-block"><h4>${escape(block.title)}</h4>${block.paragraphs.map(paragraph => `<p>${escape(paragraph)}</p>`).join('')}</div>`).join('')}<div class="rule-block"><h4>Plataformas</h4><p>Podéis jugar en cualquiera de las ${anchor('cuatro plataformas de esta guía', '#online')}, siempre que ambos jugadores estéis de acuerdo.</p></div></div></details>
   </section>
   <section class="section" id="creators">
-    ${heading('Lee, descubre y sigue aprendiendo', '08')}
-    <p class="section-intro">Las guías, los artículos y las partidas comentadas ayudan a entender por qué funciona un mazo y a descubrir otras formas de disfrutar del juego. Estos recursos son principalmente en inglés.</p>
+    ${heading('Creadores de contenido: vídeos y partidas', '08')}
+    <p class="section-intro">Descubre partidas comentadas, análisis de mazos y vídeos para seguir aprendiendo. Estos creadores publican principalmente en inglés.</p>
+    <div class="creator-grid">${data.creators.map(creator => `<article class="creator">${anchor(creator.name, creator.url)}<p>${escape(creator.description)}</p></article>`).join('')}</div>
+    <h3 class="group-heading">También para escuchar</h3>${resources([{name:'Death’s Door',description:'Pódcast dedicado a Sorcery: Contested Realm, en inglés.',links:[{label:'Escuchar el pódcast',url:'https://deathsdoorsorcerypod.substack.com/'}]}])}
+  </section>
+  <section class="section" id="reading">
+    ${heading('Lecturas y blogs', '09')}
+    <p class="section-intro">Artículos, guías y revistas para profundizar en el juego, sus mazos y su comunidad. Estos recursos son principalmente en inglés.</p>
     <article class="reading-feature"><p class="eyebrow">Lectura destacada</p><h3>${escape(data.reading[0].name)}</h3><p>${escape(data.reading[0].description)}</p>${anchor(data.reading[0].links[0].label, data.reading[0].links[0].url, 'button primary')}</article>
     ${resources(data.reading.slice(1))}
-    <h3 class="group-heading">Partidas y análisis en vídeo</h3>
-    <div class="creator-grid">${data.creators.map(creator => `<article class="creator">${anchor(creator.name, creator.url)}<p>${escape(creator.description)}</p></article>`).join('')}</div>
-    <h3 class="group-heading">Pódcast y revistas</h3>${resources([ {name:'Death’s Door',description:'Pódcast dedicado a Sorcery: Contested Realm, en inglés.',links:[{label:'Escuchar el pódcast',url:'https://deathsdoorsorcerypod.substack.com/'}]}, {name:'The Ruby Core-ier',description:'Revista de la comunidad con estética retro, en inglés.',links:[{label:'Ver la revista',url:'https://www.patreon.com/c/therubycoreier/home'}]} ])}
+    <h3 class="group-heading">Revistas de la comunidad</h3>${resources([{name:'The Ruby Core-ier',description:'Revista de la comunidad con estética retro, en inglés.',links:[{label:'Ver la revista',url:'https://www.patreon.com/c/therubycoreier/home'}]}])}
   </section>
   <section class="section" id="stores">
-    ${heading('Dónde conseguir tus cartas', '09')}
+    ${heading('Dónde conseguir tus cartas', '10')}
     <p class="section-intro">Con un mazo en mente, compara dónde conseguir las cartas que te faltan. En un mercado compras a distintos vendedores; en una tienda puedes encontrar producto sellado, cartas sueltas y, en algunos casos, una comunidad con la que jugar.</p>
     <div class="store-list"><details open><summary>Mercados de cartas <small>Europa, Estados Unidos y Brasil</small></summary><div class="details-content">${resources(data.marketplaces)}</div></details>${['Europa','España','Estados Unidos'].map(region => `<details><summary>Tiendas de ${escape(region)}</summary><div class="details-content">${storeTable(region)}</div></details>`).join('')}</div>
     <div class="price-panel"><h3>Cómo interpretar las referencias de precios</h3><p class="section-intro">Estas herramientas sirven para orientarte. Los precios pueden variar bastante entre Europa y Latinoamérica, e incluso dentro de cada región. Una referencia internacional o estadounidense no tiene por qué coincidir con lo que pagarás en tu país. Compara la edición, el idioma, el acabado, el estado de la carta y el coste total con envío.</p>${resources(data.priceTools)}</div>
@@ -116,15 +120,15 @@ const html = `<!doctype html>
     <p class="note">Encontrarás otras tiendas vinculadas a cada grupo en ${anchor('Comunidades', '#communities')}. También puedes consultar el ${anchor('buscador oficial de tiendas', 'https://sorcerytcg.com/stores')}. Confirma con ellas el catálogo y las actividades actuales.</p>
   </section>
   <section class="section" id="dust">
-    ${heading('Dust: jugar también tiene recompensa', '10')}
+    ${heading('Dust: jugar también tiene recompensa', '11')}
     <p class="section-intro">Dust es el sistema de recompensas y fidelización de Sorcery. Acumulas puntos Dust y puedes canjearlos en la Dust Store por recompensas exclusivas.</p>
     <div class="dust-steps"><article><h3>Autentica tus cajas</h3><p>Al comprar cajas de sobres, busca su código y autentícalas en la web oficial para obtener Dust.</p></article><article><h3>Participa en eventos</h3><p>Los eventos del Sorcery Play Network también permiten obtener Dust. Las recompensas dependen del tipo de evento y de las condiciones del programa.</p></article><article><h3>Canjea tus puntos</h3><p>Utiliza Dust en la tienda de recompensas para conseguir cartas promocionales, tapetes y otros artículos exclusivos.</p></article></div>
     <p>Entre las recompensas hay versiones con arte alternativo y también cartas propias y exclusivas de este sistema, como <em>Court of Equity</em>, <em>Mobbed Court</em>, <em>Mock Court</em> y <em>Overflowing Court</em>. Los eventos también forman parte de la distribución de cartas promocionales exclusivas.</p>
     <div class="links">${anchor('Consultar el programa Dust y sus recompensas', 'https://sorcerytcg.com/dust')}${anchor('Conocer las cartas exclusivas de Dust', 'https://sorcerytcg.com/news/all-rise-new-dust-rewards-are-here')}</div>
   </section>
-  <section class="section" id="tools">${heading('Herramientas para tu mesa', '11')}<p class="section-intro">Aplicaciones para acompañar tus partidas presenciales: lleva la cuenta de la vida y los umbrales elementales desde el móvil.</p>${resources(data.tools)}</section>
-  <section class="section" id="proxies">${heading('Proxies y cartas personalizadas', '12')}<p class="section-intro">Prepara copias de prueba de cartas existentes para explorar un mazo antes de comprarlo, o da forma a tus propias ideas con las herramientas de creación. Acordad el uso de proxies y cartas personalizadas antes de jugar.</p>${resources(data.creationTools)}</section>
-  <section class="section" id="resources">${heading('Sigue explorando el reino', '13')}
+  <section class="section" id="tools">${heading('Herramientas para tu mesa', '12')}<p class="section-intro">Aplicaciones para acompañar tus partidas presenciales: lleva la cuenta de la vida y los umbrales elementales desde el móvil.</p>${resources(data.tools)}</section>
+  <section class="section" id="proxies">${heading('Proxies y cartas personalizadas', '13')}<p class="section-intro">Prepara copias de prueba de cartas existentes para explorar un mazo antes de comprarlo, o da forma a tus propias ideas con las herramientas de creación. Acordad el uso de proxies y cartas personalizadas antes de jugar.</p>${resources(data.creationTools)}</section>
+  <section class="section" id="resources">${heading('Sigue explorando el reino', '14')}
     <div class="community-list"><details><summary>Comunidades y ligas internacionales</summary><div class="details-content">${resources(data.international)}</div></details><details><summary>Recursos oficiales, imágenes y tipografía</summary><div class="details-content">${resources(data.officialResources)}</div></details><details><summary>Arte, lecturas y accesorios</summary><div class="details-content">${resources(data.additionalResources)}</div></details></div>
   </section>
 </main></div>
