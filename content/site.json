@@ -1,0 +1,883 @@
+{
+  "name": "Comunidad Hispana de Sorcery",
+  "version": "0.1.0",
+  "updated": "2026-09-06",
+  "discord": "https://discord.gg/skHXkbXmgF",
+  "guide": "https://docs.google.com/document/d/1U6A4QE7tevcJzgCcfsFCvvpv282HIboWbZGCiBJVyp4/edit?tab=t.0",
+  "leagueUrl": "https://challonge.com/es/communities/liga-hispana-de-sorcery",
+  "navigation": [
+    [
+      "start",
+      "Primeros pasos"
+    ],
+    [
+      "online",
+      "Jugar online"
+    ],
+    [
+      "communities",
+      "Comunidades"
+    ],
+    [
+      "league",
+      "Liga Hispana"
+    ],
+    [
+      "rules",
+      "Reglas y cartas"
+    ],
+    [
+      "stores",
+      "Dónde comprar"
+    ],
+    [
+      "tools",
+      "Herramientas"
+    ],
+    [
+      "creators",
+      "Creadores"
+    ],
+    [
+      "resources",
+      "Más recursos"
+    ]
+  ],
+  "platforms": [
+    {
+      "name": "Valkenhall",
+      "description": "Juega desde el navegador o con su aplicación dedicada. Una plataforma comunitaria para preparar la mesa y compartir partida.",
+      "links": [
+        {
+          "label": "Abrir Valkenhall",
+          "url": "https://valkenhall.com/"
+        }
+      ],
+      "tag": "Gratis"
+    },
+    {
+      "name": "Realms",
+      "description": "Simulador de Sorcery en el navegador, gratuito y con código abierto. Una opción para quedar y jugar con otros aficionados.",
+      "links": [
+        {
+          "label": "Abrir Realms",
+          "url": "https://realms.cards/"
+        }
+      ],
+      "tag": "Gratis"
+    },
+    {
+      "name": "Play Sorcery Online",
+      "description": "Juega en el navegador y utiliza sus herramientas de draft, sellado, creación de mazos y repeticiones.",
+      "links": [
+        {
+          "label": "Abrir Play Sorcery Online",
+          "url": "https://playsorceryonline.com/"
+        }
+      ],
+      "tag": "Gratis"
+    },
+    {
+      "name": "Tabletop Simulator",
+      "description": "Mesa virtual en Steam. La aplicación es de pago y el módulo oficial de Sorcery se instala gratis desde el Workshop.",
+      "links": [
+        {
+          "label": "Ver en Steam",
+          "url": "https://store.steampowered.com/app/286160/Tabletop_Simulator/"
+        },
+        {
+          "label": "Módulo oficial",
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2884846136"
+        }
+      ],
+      "tag": "App de pago"
+    }
+  ],
+  "countries": [
+    {
+      "name": "España",
+      "summary": "Grupo general y 5 comunidades locales",
+      "groups": [
+        {
+          "name": "Sorcery en España",
+          "area": "General",
+          "shops": "",
+          "links": [
+            {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/D7mJK6ajdMb60xAz5Lr5Ct?mode=gi_t"
+            },
+            {
+              "label": "Sorcery TCG en Español",
+              "url": "https://www.instagram.com/sorcery_tcg_en_espanol/"
+            },
+            {
+              "label": "Sorcery TCG Spain",
+              "url": "https://www.instagram.com/sorcerytcgspain/"
+            }
+          ]
+        },
+        {
+          "name": "Warning Team",
+          "area": "Alicante",
+          "shops": "Ateneo Comics",
+          "links": [
+            {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/JnurK7WLaCbIUl8ng3eSNk?s=sh&p=a&ilr=1"
+            }
+          ]
+        },
+        {
+          "name": "Bastión del Sorcery",
+          "area": "Badajoz",
+          "shops": "Júpiter, La Habitación Mágica",
+          "links": [
+            {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/I4kR29TME9DB84s7n7dXws?s=cl&p=a&ilr=0"
+            },
+            {
+              "label": "Instagram",
+              "url": "https://www.instagram.com/bastiondelsorcery/"
+            }
+          ]
+        },
+        {
+          "name": "Sorcery Barcelona",
+          "area": "Barcelona",
+          "shops": "Monstercards, Gigamesh",
+          "links": [
+            {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/FBvrzszAM1bIKZqrDlBGgm?s=cl&p=a&ilr=4"
+            },
+            {
+              "label": "Instagram",
+              "url": "https://www.instagram.com/sorcery_tcg_barcelona/"
+            }
+          ]
+        },
+        {
+          "name": "Sorcery Granada",
+          "area": "Granada",
+          "shops": "Dune Comics (Cornerstone), War Lotus",
+          "links": [
+            {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/I7U8Mxqe9DF7FRXIw1tE6v"
+            }
+          ]
+        },
+        {
+          "name": "Sorcery Madrid",
+          "area": "Madrid",
+          "shops": "Padis, Oz Juegos, Libertalia",
+          "links": [
+            {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/Ko515VWd9SHKSTz8xbPwna?mode=gi_t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Argentina",
+      "summary": "Grupo nacional · Buenos Aires",
+      "groups": [
+        {
+          "name": "Sorcery Argentina",
+          "area": "General",
+          "shops": "El Abismo de Helm Wargames (Buenos Aires)",
+          "links": [
+            {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/KFFOlG7e2E4IMLnP4htbRr?s=cl&p=a&ilr=1"
+            },
+            {
+              "label": "Instagram",
+              "url": "https://www.instagram.com/sorcerytcgargentina/"
+            },
+            {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/653379039096101"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Colombia",
+      "summary": "Grupo nacional",
+      "groups": [
+        {
+          "name": "Sorcery Colombia",
+          "area": "General",
+          "shops": "Doomgeon TCG",
+          "links": [
+            {
+              "label": "WhatsApp",
+              "url": "https://chat.whatsapp.com/Cpbhn05NZ5b0oZR8HOOBSS"
+            },
+            {
+              "label": "Instagram",
+              "url": "https://www.instagram.com/sorcerytcgcolombia/"
+            },
+            {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/sorcerytcgcolombia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "México",
+      "summary": "Grupo nacional · Mérida",
+      "groups": [
+        {
+          "name": "Sorcery Contested Realm TCG México",
+          "area": "General",
+          "shops": "",
+          "links": [
+            {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/1854401345052232"
+            }
+          ]
+        },
+        {
+          "name": "Flesh and Blood / Sorcery TCG Mérida",
+          "area": "Mérida",
+          "shops": "",
+          "links": [
+            {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/327069709461697"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Puerto Rico",
+      "summary": "Grupo de la comunidad",
+      "groups": [
+        {
+          "name": "Sorcery Puerto Rico",
+          "area": "General",
+          "shops": "",
+          "links": [
+            {
+              "label": "Facebook",
+              "url": "https://www.facebook.com/groups/2673233247393644"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "name": "Guía de inicio de Marc",
+      "description": "Una guía en español y en progreso, con recursos para aprender y una recopilación de tiendas.",
+      "links": [
+        {
+          "label": "Leer la guía en español",
+          "url": "https://docs.google.com/document/d/1U6A4QE7tevcJzgCcfsFCvvpv282HIboWbZGCiBJVyp4/edit?tab=t.0"
+        }
+      ]
+    },
+    {
+      "name": "Aprende con la web oficial",
+      "description": "Tutoriales de iniciación y acceso a los recursos de juego. Contenido en inglés.",
+      "links": [
+        {
+          "label": "Ver los tutoriales",
+          "url": "https://sorcerytcg.com/get-started/player"
+        }
+      ]
+    },
+    {
+      "name": "Reglamento oficial",
+      "description": "Las reglas completas del juego, en inglés. Consulta también las aclaraciones de cada carta.",
+      "links": [
+        {
+          "label": "Abrir el reglamento",
+          "url": "https://drive.google.com/file/d/1sgQo0xf0N2teIR0zlyl91g9j6LVncZnr/view"
+        }
+      ]
+    },
+    {
+      "name": "Codex y preguntas frecuentes",
+      "description": "Definiciones e interacciones. Las preguntas sobre cartas concretas se consultan en sus fichas oficiales.",
+      "links": [
+        {
+          "label": "Consultar el Codex",
+          "url": "https://sorcerytcg.com/codex"
+        },
+        {
+          "label": "Buscar una carta",
+          "url": "https://sorcerytcg.com/cards"
+        }
+      ]
+    },
+    {
+      "name": "Moxfield para Sorcery",
+      "description": "Buscador de cartas con parámetros de búsqueda avanzados.",
+      "links": [
+        {
+          "label": "Buscar en Moxfield",
+          "url": "https://sorcery.moxfield.com/"
+        }
+      ]
+    },
+    {
+      "name": "Mazos y bases de datos",
+      "description": "Consulta cartas, explora listas y prepara tu próximo mazo.",
+      "links": [
+        {
+          "label": "Mazos oficiales",
+          "url": "https://sorcerytcg.com/decks"
+        },
+        {
+          "label": "Sorcerycard.io",
+          "url": "https://sorcerycard.io/"
+        },
+        {
+          "label": "Cursed Realm",
+          "url": "https://cursedrealm.org/"
+        }
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "name": "Four Cores",
+      "description": "Aplicación para llevar la vida y los umbrales elementales. Útil como acompañante de un jugador, con funciones adicionales.",
+      "links": [
+        {
+          "label": "Android",
+          "url": "https://play.google.com/store/apps/details?id=xyz.fourcores.twa&hl=en-US"
+        },
+        {
+          "label": "iPhone y iPad",
+          "url": "https://apps.apple.com/us/app/four-cores/id6554003504"
+        }
+      ]
+    },
+    {
+      "name": "Realm Tracker",
+      "description": "Contadores para seguir la partida de dos jugadores desde un mismo dispositivo.",
+      "links": [
+        {
+          "label": "Android",
+          "url": "https://play.google.com/store/apps/details?id=com.boxtopbros.realmtracker"
+        }
+      ]
+    },
+    {
+      "name": "Sorcerer’s Spellbook",
+      "description": "Herramienta para preparar proxies y probar cartas en partidas que permitan su uso.",
+      "links": [
+        {
+          "label": "Preparar proxies",
+          "url": "https://sorcererspellbook.com/"
+        }
+      ]
+    },
+    {
+      "name": "Editores y cartas personalizadas",
+      "description": "Recursos comunitarios para preparar cartas y explorar ideas propias.",
+      "links": [
+        {
+          "label": "Realms App",
+          "url": "https://www.realmsapp.com/sorcery_tcg/cards"
+        },
+        {
+          "label": "Sorcery Card Maker",
+          "url": "https://sorcery-card-maker.dynv6.net/"
+        }
+      ]
+    },
+    {
+      "name": "Seguimiento de precios",
+      "description": "Consulta referencias de mercado por carta y colección.",
+      "links": [
+        {
+          "label": "Sorcerer’s Ledger",
+          "url": "https://www.sorcerersledger.com/"
+        },
+        {
+          "label": "TCG Index",
+          "url": "https://tcgindex.io/sorcery"
+        },
+        {
+          "label": "Guías de TCGplayer",
+          "url": "https://www.tcgplayer.com/categories/trading-and-collectible-card-games/sorcery-contested-realm/price-guides"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "name": "Lord of Itza",
+      "url": "https://www.youtube.com/@Lord_of_Itza",
+      "description": "Arbitraje de torneos y análisis del mercado."
+    },
+    {
+      "name": "Cardboard Guide",
+      "url": "https://www.youtube.com/@CardboardGuide",
+      "description": "Contenido general sobre Sorcery: novedades, cartas y juego."
+    },
+    {
+      "name": "The Assorted Animals",
+      "url": "https://www.youtube.com/@TheAssortedAnimals",
+      "description": "Partidas de Sorcery."
+    },
+    {
+      "name": "Frogimago",
+      "url": "https://www.youtube.com/@Frogimago",
+      "description": "Construcción de mazos y estrategia de draft."
+    },
+    {
+      "name": "Collector Arthouse",
+      "url": "https://www.youtube.com/@CollectorArthouse",
+      "description": "El arte y los artistas de Sorcery."
+    },
+    {
+      "name": "Golden Eagle Cards",
+      "url": "https://www.youtube.com/@goldeneagle1833",
+      "description": "Partidas, análisis de mazos y resultados de eventos."
+    },
+    {
+      "name": "Archives of the Realm",
+      "url": "https://www.youtube.com/@ArchivesOfTheRealm",
+      "description": "Contenido variado sobre Sorcery."
+    },
+    {
+      "name": "GG Sorcery",
+      "url": "https://www.youtube.com/@ggsorcery",
+      "description": "Partidas y análisis de cartas."
+    },
+    {
+      "name": "Common Sense Sorcery",
+      "url": "https://www.youtube.com/@CommonSenseSorcery",
+      "description": "Mazos, análisis, estrategia y pódcast."
+    },
+    {
+      "name": "Sorcery 102",
+      "url": "https://www.youtube.com/@Sorcery102",
+      "description": "Construcción de mazos, estrategia y pódcast."
+    },
+    {
+      "name": "Trolls of the Realm",
+      "url": "https://www.youtube.com/@TrollsoftheRealm",
+      "description": "Análisis del entorno competitivo."
+    },
+    {
+      "name": "Woz TCG",
+      "url": "https://www.youtube.com/@WozTCG",
+      "description": "Análisis de cartas."
+    },
+    {
+      "name": "Ash and Void",
+      "url": "https://www.youtube.com/@AshandVoid",
+      "description": "Entorno competitivo y construcción de mazos."
+    },
+    {
+      "name": "Realms.cards",
+      "url": "https://www.youtube.com/@kingoftherealm",
+      "description": "Tutoriales de la plataforma Realms."
+    }
+  ],
+  "international": [
+    {
+      "name": "Discord oficial",
+      "description": "Comunidad internacional de Sorcery.",
+      "links": [
+        {
+          "label": "Entrar al Discord",
+          "url": "https://discord.gg/ytcG9jqxvp"
+        }
+      ]
+    },
+    {
+      "name": "Sorcerers at the Core",
+      "description": "Comunidad para encontrar partidas online.",
+      "links": [
+        {
+          "label": "Entrar al Discord",
+          "url": "https://discord.gg/AXgqfzmV35"
+        }
+      ]
+    },
+    {
+      "name": "Sorcerer’s Summit",
+      "description": "Comunidad y liga online.",
+      "links": [
+        {
+          "label": "Entrar al Discord",
+          "url": "https://discord.gg/Bn2Yq7g2AT"
+        },
+        {
+          "label": "Visitar la web",
+          "url": "https://sorcererssummit.com/"
+        }
+      ]
+    },
+    {
+      "name": "Sorcery League",
+      "description": "Otra liga online de la comunidad internacional.",
+      "links": [
+        {
+          "label": "Visitar la web",
+          "url": "https://www.sorceryleague.com/"
+        },
+        {
+          "label": "Entrar al Discord",
+          "url": "https://discord.com/invite/H4Kwwcp5nt"
+        }
+      ]
+    }
+  ],
+  "officialResources": [
+    {
+      "name": "Imágenes, iconos y logotipos",
+      "description": "Material gráfico del juego para consultar y acompañar proyectos de la comunidad.",
+      "links": [
+        {
+          "label": "Abrir los recursos gráficos",
+          "url": "https://drive.google.com/drive/folders/1PioYpsElOYUIU4_YXu9_Mpr-s-GvB8J-"
+        }
+      ]
+    },
+    {
+      "name": "API e imágenes de cartas",
+      "description": "Datos oficiales y archivo descargable de imágenes. Consulta las instrucciones de uso de la API.",
+      "links": [
+        {
+          "label": "Documentación de la API",
+          "url": "https://api.sorcerytcg.com/"
+        },
+        {
+          "label": "Imágenes de cartas",
+          "url": "https://drive.google.com/drive/folders/17IrJkRGmIU9fDSTU2JQEU9JlFzb5liLJ"
+        }
+      ]
+    },
+    {
+      "name": "Fantaisie Artistique",
+      "description": "La tipografía de George Williams utilizada en los títulos de esta página.",
+      "links": [
+        {
+          "label": "Ver la fuente en DaFont",
+          "url": "https://www.dafont.com/fantaisie-artistiqu.font"
+        }
+      ]
+    },
+    {
+      "name": "Noticias, eventos y Dust",
+      "description": "Sigue las novedades del juego, encuentra eventos y conoce su sistema de recompensas.",
+      "links": [
+        {
+          "label": "Noticias",
+          "url": "https://sorcerytcg.com/news"
+        },
+        {
+          "label": "Eventos",
+          "url": "https://play.sorcerytcg.com/events?radius=250"
+        },
+        {
+          "label": "Dust",
+          "url": "https://sorcerytcg.com/dust"
+        }
+      ]
+    }
+  ],
+  "additionalResources": [
+    {
+      "name": "The Painted Realm",
+      "description": "Entrevistas y artículos dedicados al arte de Sorcery.",
+      "links": [
+        {
+          "label": "Visitar la web",
+          "url": "https://www.thepaintedrealm.com/"
+        }
+      ]
+    },
+    {
+      "name": "Rodney Matthews",
+      "description": "Web del artista e información sobre su obra.",
+      "links": [
+        {
+          "label": "Visitar la web",
+          "url": "https://www.rodneymatthewsstudios.com/"
+        }
+      ]
+    },
+    {
+      "name": "Accesorios y organización",
+      "description": "Un inserto imprimible en 3D para la caja de Gothic y estuches para fichas.",
+      "links": [
+        {
+          "label": "Inserto para Gothic",
+          "url": "https://www.printables.com/model/1518715-scr-gothic-bb-insert"
+        },
+        {
+          "label": "Intrical Treasures",
+          "url": "https://www.etsy.com/shop/intricaltreasures/"
+        }
+      ]
+    },
+    {
+      "name": "Lecturas y comunidad",
+      "description": "Artículos de estrategia, conversación y una guía de compra.",
+      "links": [
+        {
+          "label": "Eternal Durdles",
+          "url": "https://eternaldurdles.com/category/sorcery-contested-realm/"
+        },
+        {
+          "label": "Reddit",
+          "url": "https://www.reddit.com/r/SorceryTCG/"
+        },
+        {
+          "label": "Guía de Team Covenant",
+          "url": "https://blog.teamcovenant.com/sorcery-tcg-buyers-guide/"
+        }
+      ]
+    }
+  ],
+  "marketplaces": [
+    {
+      "name": "Paper Rectangles",
+      "description": "Europa · Mercado de cartas entre vendedores.",
+      "links": [
+        {
+          "label": "Visitar el mercado",
+          "url": "https://paperrectangles.eu/"
+        }
+      ]
+    },
+    {
+      "name": "CardTrader",
+      "description": "Internacional · Mercado de cartas, producto sellado y accesorios.",
+      "links": [
+        {
+          "label": "Ver Sorcery",
+          "url": "https://www.cardtrader.com/es/sorcery"
+        }
+      ]
+    },
+    {
+      "name": "CardNexus",
+      "description": "Europa · Plataforma de compraventa y herramientas para coleccionistas.",
+      "links": [
+        {
+          "label": "Visitar el mercado",
+          "url": "https://cardnexus.com/"
+        }
+      ]
+    },
+    {
+      "name": "LigaSorcery",
+      "description": "Brasil · Portal con ofertas de tiendas y mercado local.",
+      "links": [
+        {
+          "label": "Visitar el mercado",
+          "url": "https://www.ligasorcery.com.br/"
+        }
+      ]
+    },
+    {
+      "name": "TCGplayer",
+      "description": "Estados Unidos · Mercado con múltiples vendedores de cartas y producto sellado.",
+      "links": [
+        {
+          "label": "Ver Sorcery",
+          "url": "https://www.tcgplayer.com/search/sorcery-contested-realm/product?productLineName=sorcery-contested-realm&view=grid"
+        }
+      ]
+    }
+  ],
+  "stores": [
+    {
+      "name": "Gigamesh",
+      "region": "España",
+      "city": "Barcelona",
+      "products": "Sobres, cajas, mazos de inicio y tapetes. Venta presencial.",
+      "url": null
+    },
+    {
+      "name": "Industria61",
+      "region": "España",
+      "city": "Barcelona",
+      "products": "Sobres y cajas.",
+      "url": "https://industria61.com/categoria-producto/juego-de-cartas-coleccionables/sorcery-contested-realm/"
+    },
+    {
+      "name": "Kaburi",
+      "region": "España",
+      "city": "Barcelona",
+      "products": "Sobres y cajas.",
+      "url": "https://www.kaburi.es/search-result.aspx?p=1&pc=n&ba=1&Buscar=sorcery"
+    },
+    {
+      "name": "Just Freak",
+      "region": "España",
+      "city": "Granada",
+      "products": "Cajas, mazos de inicio y tapetes.",
+      "url": "https://justfreak.es/busqueda?controller=search&s=sorcery"
+    },
+    {
+      "name": "Padis",
+      "region": "España",
+      "city": "Madrid",
+      "products": "Sobres, cajas y tapetes.",
+      "url": "https://www.padis-store.com/es/357-sorcery-tcg"
+    },
+    {
+      "name": "Distrito Zero",
+      "region": "España",
+      "city": "Santander",
+      "products": "Cajas y mazos de inicio.",
+      "url": "https://distritozero.es/categoria/sorcery-tcg-701"
+    },
+    {
+      "name": "Teseracto",
+      "region": "España",
+      "city": "Vilafranca",
+      "products": "Sobres, cajas y mazos de inicio.",
+      "url": "https://teseractolahistoriaenjuego.com/collections/sorcery-contested-realm"
+    },
+    {
+      "name": "Rubble.dk",
+      "region": "Europa",
+      "city": "",
+      "products": "Cartas sueltas, sobres, cajas, mazos y accesorios.",
+      "url": "https://rubble.dk/"
+    },
+    {
+      "name": "Trolls of the Realm",
+      "region": "Europa",
+      "city": "",
+      "products": "Cartas sueltas, sobres, cajas, mazos y material de draft.",
+      "url": "https://trollsoftherealm.com"
+    },
+    {
+      "name": "White Rabbit",
+      "region": "Europa",
+      "city": "",
+      "products": "Sobres, cajas, mazos de inicio y tapetes.",
+      "url": "https://shop.whiterabbit-cgs.de/Sorcery-Contested-Realm_1"
+    },
+    {
+      "name": "Aquila",
+      "region": "Europa",
+      "city": "",
+      "products": "Cajas, mazos de inicio y tapetes.",
+      "url": "https://aquilagaming.be/products/sorcery-contested-realm/"
+    },
+    {
+      "name": "Yodasdata",
+      "region": "Europa",
+      "city": "",
+      "products": "Cajas, mazos de inicio y tapetes.",
+      "url": "https://yodasdata.biz/Sorcery"
+    },
+    {
+      "name": "Sorcery TCG Europe",
+      "region": "Europa",
+      "city": "",
+      "products": "Cartas sueltas y producto sellado.",
+      "url": "https://sorcerytcg.eu/"
+    },
+    {
+      "name": "Team Covenant",
+      "region": "Estados Unidos",
+      "city": "",
+      "products": "Cajas, mazos de inicio y tapetes.",
+      "url": "https://www.teamcovenant.com/games/sorcery-tcg"
+    },
+    {
+      "name": "Star City Games",
+      "region": "Estados Unidos",
+      "city": "",
+      "products": "Cajas y mazos de inicio.",
+      "url": "https://starcitygames.com/scr/"
+    },
+    {
+      "name": "Cold Foil Heroes",
+      "region": "Estados Unidos",
+      "city": "",
+      "products": "Cartas sueltas, cajas, mazos y accesorios.",
+      "url": "https://www.coldfoilheroes.com"
+    }
+  ],
+  "leagueRules": [
+    {
+      "title": "Plazos y contacto",
+      "paragraphs": [
+        "Cada ronda tendrá una duración de diez días. La fecha límite se anunciará junto con los emparejamientos.",
+        "Los jugadores deben contactar con su rival por Discord durante las primeras 24 horas de la ronda para acordar el día y la hora de la partida.",
+        "Si un rival no responde durante las primeras 24 horas, debe notificarse en el canal del torneo. Si continúa sin responder durante 48 horas, el organizador podrá conceder una victoria por incomparecencia.",
+        "Si una partida no se ha jugado al finalizar el plazo, el organizador revisará los intentos de contacto:",
+        "Si un jugador realizó esfuerzos razonables y el otro no, se concederá una victoria por 1-0.",
+        "Si ninguno realizó esfuerzos suficientes, o no puede determinarse la responsabilidad, se registrará una doble incomparecencia por 0-0. Ambos jugadores recibirán cero puntos.",
+        "Las cancelaciones deberán comunicarse cuanto antes e intentará buscarse otro horario dentro del plazo de la ronda. El organizador resolverá los casos de cancelaciones reiteradas o falta de colaboración."
+      ]
+    },
+    {
+      "title": "Formato",
+      "paragraphs": [
+        "Construido: 60 cartas en el Spellbook, 30 en el Atlas y hasta 10 en la Collection.",
+        "Se puede cambiar de mazo entre partidas.",
+        "Primera fase mediante rondas suizas.",
+        "Los cuatro primeros jugadores pasan al Top 4 de eliminación directa.",
+        "Las rondas suizas y las semifinales son al mejor de una partida, Bo1.",
+        "La final es al mejor de tres partidas, Bo3.",
+        "El número de rondas suizas se anunciará después de cerrar la inscripción."
+      ]
+    },
+    {
+      "title": "Reglas de las partidas",
+      "paragraphs": [
+        "Se aplican las reglas oficiales de Sorcery y las FAQ vigentes en el momento de jugar.",
+        "El jugador inicial se decide mediante una tirada de d20.",
+        "El segundo jugador dispone de Seer. Antes de comenzar y después de robar las cartas (y hacer mulligan) puede mirar la primera carta de uno de sus mazos. Luego puede decidir si la deja donde estaba o la coloca debajo del mazo.",
+        "No hay empates. Si se produce un double death blow, se ignora y la partida continúa hasta determinar un ganador.",
+        "Las partidas no tienen límite de tiempo, salvo que ambos jugadores acuerden uno antes de comenzar.",
+        "Antes de jugar, los jugadores pueden acordar cómo gestionar los takebacks. Si no acuerdan nada, se permiten hasta que se revele nueva información."
+      ]
+    },
+    {
+      "title": "Resultados",
+      "paragraphs": [
+        "El ganador debe introducir el resultado en Challonge inmediatamente después de la partida:",
+        "Bo1: 1-0.",
+        "Bo3: 2-0 o 2-1.",
+        "Ambos jugadores deben comprobar que el resultado sea correcto. Cualquier error debe comunicarse antes de que se publique la siguiente ronda. Una vez publicada, el resultado anterior se considerará definitivo."
+      ]
+    },
+    {
+      "title": "Clasificación y desempates",
+      "paragraphs": [
+        "La clasificación se determina por victorias. En caso de empate se aplicarán, por este orden:",
+        "Median-Buchholz.",
+        "Victorias contra participantes empatados.",
+        "Desempate manual.",
+        "El desempate manual solo se utilizará si sigue existiendo un empate que afecte al acceso al Top 4. En ese caso, se resolverá mediante sorteo público administrado por el organizador."
+      ]
+    },
+    {
+      "title": "Deportividad y administración",
+      "paragraphs": [
+        "Se espera que todos los participantes actúen con deportividad, respeten las reglas y ayuden a los jugadores menos experimentados.",
+        "La manipulación de resultados, los acuerdos para amañar partidas o cualquier actuación de mala fe podrán implicar la expulsión del torneo. Las decisiones del organizador sobre incidencias y reglas serán definitivas.",
+        "Estas normas están adaptadas de las utilizadas por la Sorcery: Contested Realm League organizada por @Ira."
+      ]
+    }
+  ]
+}
