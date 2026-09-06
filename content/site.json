@@ -51,6 +51,10 @@
       "Herramientas de mesa"
     ],
     [
+      "proxies",
+      "Proxies y cartas propias"
+    ],
+    [
       "resources",
       "Más recursos"
     ]
@@ -293,11 +297,11 @@
   "rules": [
     {
       "name": "Reglamento oficial",
-      "description": "Explica la estructura de la partida, el turno y las reglas generales. Tenlo a mano durante tus primeras partidas. Contenido en inglés.",
+      "description": "Explica la estructura de la partida, el turno y las reglas generales. Esta versión está paginada e incluye un índice de contenidos para localizar cada apartado. Contenido en inglés.",
       "links": [
         {
           "label": "Abrir el reglamento",
-          "url": "https://drive.google.com/file/d/1sgQo0xf0N2teIR0zlyl91g9j6LVncZnr/view"
+          "url": "https://drive.google.com/file/d/1BSgCjO2nsgOfL5ey_-L9afWw_LggOESB/view"
         }
       ]
     },
@@ -342,30 +346,6 @@
         {
           "label": "Android",
           "url": "https://play.google.com/store/apps/details?id=com.boxtopbros.realmtracker"
-        }
-      ]
-    },
-    {
-      "name": "Sorcerer’s Spellbook",
-      "description": "Herramienta para preparar proxies y probar cartas en partidas que permitan su uso.",
-      "links": [
-        {
-          "label": "Preparar proxies",
-          "url": "https://sorcererspellbook.com/"
-        }
-      ]
-    },
-    {
-      "name": "Editores y cartas personalizadas",
-      "description": "Recursos comunitarios para preparar cartas y explorar ideas propias.",
-      "links": [
-        {
-          "label": "Realms App",
-          "url": "https://www.realmsapp.com/sorcery_tcg/cards"
-        },
-        {
-          "label": "Sorcery Card Maker",
-          "url": "https://sorcery-card-maker.dynv6.net/"
         }
       ]
     }
@@ -594,6 +574,16 @@
   ],
   "marketplaces": [
     {
+      "name": "CardNexus",
+      "description": "Europa · Plataforma de compraventa y herramientas para coleccionistas.",
+      "links": [
+        {
+          "label": "Visitar el mercado",
+          "url": "https://cardnexus.com/"
+        }
+      ]
+    },
+    {
       "name": "Paper Rectangles",
       "description": "Europa · Mercado de cartas entre vendedores.",
       "links": [
@@ -614,12 +604,12 @@
       ]
     },
     {
-      "name": "CardNexus",
-      "description": "Europa · Plataforma de compraventa y herramientas para coleccionistas.",
+      "name": "TCGplayer",
+      "description": "Estados Unidos · Mercado con múltiples vendedores de cartas y producto sellado.",
       "links": [
         {
-          "label": "Visitar el mercado",
-          "url": "https://cardnexus.com/"
+          "label": "Ver Sorcery",
+          "url": "https://www.tcgplayer.com/search/sorcery-contested-realm/product?productLineName=sorcery-contested-realm&view=grid"
         }
       ]
     },
@@ -630,16 +620,6 @@
         {
           "label": "Visitar el mercado",
           "url": "https://www.ligasorcery.com.br/"
-        }
-      ]
-    },
-    {
-      "name": "TCGplayer",
-      "description": "Estados Unidos · Mercado con múltiples vendedores de cartas y producto sellado.",
-      "links": [
-        {
-          "label": "Ver Sorcery",
-          "url": "https://www.tcgplayer.com/search/sorcery-contested-realm/product?productLineName=sorcery-contested-realm&view=grid"
         }
       ]
     }
@@ -969,6 +949,28 @@
         {
           "label": "Explorar Collector Arthouse",
           "url": "https://www.collectorarthouse.com/"
+        }
+      ]
+    }
+  ],
+  "creationTools": [
+    {
+      "name": "Sorcerer’s Spellbook",
+      "description": "Herramienta para preparar proxies y probar cartas en partidas que permitan su uso.",
+      "links": [
+        {
+          "label": "Preparar proxies",
+          "url": "https://sorcererspellbook.com/"
+        }
+      ]
+    },
+    {
+      "name": "Editores y cartas personalizadas",
+      "description": "Recursos comunitarios para preparar cartas y explorar ideas propias.",
+      "links": [
+        {
+          "label": "Realms App",
+          "url": "https://www.realmsapp.com/sorcery_tcg/cards"
         }
       ]
     }

@@ -19,3 +19,9 @@ Fantaisie Artistique by George Williams. The original TTF was supplied by the ow
 - API usage guidance: https://api.sorcerytcg.com/
 
 Graphics are hosted with this static site and not fetched from a private card-image CDN. Sorcery: Contested Realm and associated names and marks belong to Erik's Curiosa Limited. Illustrations belong to their respective artists. This is an independent community project. No broader license over these assets is granted by this repository.
+
+## Community screenshots
+
+- `assets/avatar-tier-list.webp`: avatar tier list image supplied by the project owner on 2026-09-06. Original author and publication date were not provided. Ranking is community opinion, not an official classification. Card art retains its original ownership.
+- `assets/erik-design-message.webp`: screenshot supplied by the owner of Erik's message in the official Discord: https://discord.com/channels/769359301466652693/769359301466652696/1281759447198335117 .
+- Both images were converted to WebP without changing their content or resolution.

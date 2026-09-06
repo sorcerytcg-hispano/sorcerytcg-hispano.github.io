@@ -14,11 +14,11 @@ Open `index.html` in a browser. The complete page, navigation, and expandable se
 - Run `npm run build` using Node.js 22 or newer. No dependencies need to be installed.
 - Run `npm run check` to validate generated links and local assets.
 
-The generated `index.html` is tracked so that GitHub Pages can serve the repository directly. The optional GitHub Actions workflow builds a fresh static artifact on pushes to `main`. It requires selecting GitHub Actions as the Pages source in repository settings before initial publication.
+The generated `index.html` is tracked and must be committed with content changes. GitHub Pages publishes the repository automatically from `main` using its existing branch deployment. The validation workflow regenerates the page and checks that the committed HTML matches its source.
 
-## Review before publishing
+## Publication
 
-Version 0.2.0 is delivered on a review branch. It must not be merged or published until the owner has reviewed it. No Cloudflare Worker, D1 database, account system, or API backend is involved.
+Version 0.3.0 is the first public release, authorized by the project owner. The public address is https://sorcerytcg-hispano.github.io/ . No Cloudflare Worker, D1 database, account system, or API backend is involved.
 
 See `EDITORIAL.md` for source provenance and unresolved content questions. See `CREDITS.md` for graphic assets and font attribution. Third-party assets retain their respective rights.
 

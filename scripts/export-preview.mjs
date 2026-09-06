@@ -9,7 +9,7 @@ const embed = async (path, mime) => `data:${mime};base64,${(await readFile(new U
 css = css.replace("url('./fonts/fantaisie-artistique.ttf')", `url('${await embed('assets/fonts/fantaisie-artistique.ttf', 'font/ttf')}')`);
 html = html.replace('<link rel="stylesheet" href="assets/styles.css">', `<style>${css}</style>`);
 html = html.replace(/  <link rel="preload"[^>]+>\n/, '');
-for (const [path, mime] of [['assets/sorcery-hero.webp', 'image/webp'], ['assets/sorcery-logo.png', 'image/png']]) {
+for (const [path, mime] of [['assets/sorcery-hero.webp', 'image/webp'], ['assets/sorcery-logo.png', 'image/png'], ['assets/avatar-tier-list.webp', 'image/webp'], ['assets/erik-design-message.webp', 'image/webp']]) {
   html = html.replaceAll(path, await embed(path, mime));
 }
 html = html.replace('<script src="assets/main.js" defer></script>', `<script>${await readFile(new URL('assets/main.js', root), 'utf8')}</script>`);

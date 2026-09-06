@@ -1,4 +1,4 @@
-# Editorial notes for version 0.1.0
+# Editorial notes
 
 ## Source handling
 
@@ -18,7 +18,7 @@ The official player guide, Codex, current linked rulebook, card library, deck li
 
 ## Publication
 
-GitHub reported `has_pages: true` before development. The exact Pages source configuration has not been changed or assumed. The release branch must be reviewed before merging. Selecting GitHub Actions as the Pages source and merging the branch are separate, pending publication steps.
+GitHub reported `has_pages: true` before development. An existing successful native Pages workflow deployed the initial main branch. Version 0.3.0 preserves that branch publishing configuration and uses a separate validation workflow. The owner explicitly authorized publication after the final content adjustments.
 
 ## Link checks
 
@@ -31,3 +31,11 @@ The owner requested a blue palette and an original guided beginner journey. The 
 New sources: the supplied video https://www.youtube.com/watch?v=OXE2UF6nKPY ; recommended and competitive decks at https://www.sorcererssummit.com/deck-rec and https://www.sorcererssummit.com/top-8 ; https://allthingssorcery.com/ ; https://eternaldurdles.com/ ; https://www.collectorarthouse.com/ . The official homepage confirms card, deckbuilding, and collection tools. Official Beta and Gothic pages support precon descriptions. The July 2026 announcement https://sorcerytcg.com/news/all-rise-new-dust-rewards-are-here explicitly identifies the four Courts as Dust Store exclusives.
 
 YouTube playback is embedded without autoplay and includes an external fallback. Playback can be blocked by browser privacy settings, local file origins, or the video owner's embedding settings. No playback test is claimed. The current official Dust landing page showed a maintenance placeholder for its store link, so the page links to the program and exclusive-card announcement rather than an invented store URL.
+
+## Version 0.3.0
+
+YouTube creators are visible without expansion. Marketplaces follow CardNexus, Paper Rectangles, CardTrader, TCGplayer, and LigaSorcery. Price guidance covers Europe and Latin America. Proxy/custom-card resources are separate from tabletop companion apps; the unavailable Sorcery Card Maker link was removed. The owner supplied the replacement paginated rulebook with a contents index.
+
+The beginner guide now introduces the Hispanic League and Sorcerers Summit as next steps. Erik's short biography is based on his official interview: https://sorcerytcg.com/news/interview-with-game-creator-erik-olofsson . His design philosophy is paraphrased from the owner-supplied Discord screenshot, linked to https://discord.com/channels/769359301466652693/769359301466652696/1281759447198335117 . The public Discord message body could not be independently retrieved; no date was inferred from its locale-dependent timestamp.
+
+The avatar tier list is an owner-supplied community opinion, described by the owner as informed by major tournament Top 8 results. No author identity, date, or claim that it reflects the latest metagame was invented. The accompanying text explains avatar/element pairings and the limitations of ranking avatars independently. Both screenshots are hosted locally as optimized WebP images, with original dimensions, lazy loading, Spanish descriptions, and links for enlargement.
