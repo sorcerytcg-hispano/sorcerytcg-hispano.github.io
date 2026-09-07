@@ -91,45 +91,57 @@ const html = `<!doctype html>
   <section class="section" id="deckbuilding">
     ${heading('Consulta cartas y construye tu mazo', '06')}
     <p class="section-intro">Utiliza una base de datos para buscar cartas, comparar opciones y dar forma a tu lista. Estas herramientas reúnen consultas de cartas y, según la plataforma, construcción de mazos y gestión de la colección.</p>
-    ${resources(data.deckTools)}
+    <div class="codex-panel"><p class="eyebrow">Cartas, mazos y colección</p><h3>La web oficial de Sorcery</h3><p>Busca cartas, crea y comparte tus mazos y lleva un registro de tu colección. Es el punto de partida para conocer el catálogo del juego y organizar las cartas que tienes. Las listas compartidas por jugadores son mazos comunitarios.</p><div class="actions">${anchor('Explorar la web oficial', 'https://sorcerytcg.com/', 'button primary')}${anchor('Consultar cartas', 'https://sorcerytcg.com/cards', 'button')}${anchor('Crear un mazo', 'https://sorcerytcg.com/decks/create', 'button')}${anchor('Mi colección', 'https://sorcerytcg.com/collection', 'button')}</div></div>
+    ${resources(data.deckTools.filter(tool => tool.name !== 'Web oficial de Sorcery'))}
+  </section>
+  <section class="section" id="proxies">
+    ${heading('Imprime proxies para probar tu mazo', '07')}
+    <p class="section-intro">Prueba una lista en mesa antes de comprar las cartas. Los proxies son copias de prueba: acuerda su uso con la otra persona antes de jugar.</p>
+    <div class="codex-panel"><p class="eyebrow">Una herramienta de la comunidad hispana</p><h3>Generador de proxies de Sorcery</h3><p>Pega la URL de tu mazo de sorcerytcg.com y prepara un PDF con sus cartas para imprimir. Una forma sencilla de pasar de la lista a la mesa y probar cambios en tu mazo.</p>${anchor('Crear e imprimir mis proxies', 'https://proxy.sorcerytcg.workers.dev/', 'button primary')}</div>
+    <p class="note">También puedes utilizar ${anchor('Sorcerer’s Spellbook', 'https://sorcererspellbook.com/')} como alternativa para preparar proxies.</p>
   </section>
   <section class="section" id="league">
-    ${heading('Liga Hispana de Sorcery', '07')}
+    ${heading('Liga Hispana de Sorcery', '08')}
     <div class="league-panel"><p class="eyebrow">Online · Amistosa · Gratuita</p><h3>Una liga para compartir el juego</h3><p>Apúntate con una cuenta gratuita de Challonge y entra en el Discord de la comunidad. Las inscripciones, los emparejamientos y los resultados se gestionan en Challonge.</p><div class="league-facts"><div><strong>10 días</strong><span>por ronda</span></div><div><strong>Construido</strong><span>suizo y fase final</span></div><div><strong>Top 4</strong><span>final al mejor de tres</span></div></div><div class="actions">${anchor('Ver torneos e inscribirme', data.leagueUrl, 'button primary')}${anchor('Entrar al Discord', data.discord, 'button')}</div></div>
     <details><summary>Normas de la liga</summary><div class="details-content"><p class="section-intro">Normas facilitadas por la organización. Consulta la convocatoria de cada torneo para conocer sus fechas y cualquier actualización.</p>${data.leagueRules.map(block => `<div class="rule-block"><h4>${escape(block.title)}</h4>${block.paragraphs.map(paragraph => `<p>${escape(paragraph)}</p>`).join('')}</div>`).join('')}<div class="rule-block"><h4>Plataformas</h4><p>Podéis jugar en cualquiera de las ${anchor('cuatro plataformas de esta guía', '#online')}, siempre que ambos jugadores estéis de acuerdo.</p></div></div></details>
   </section>
   <section class="section" id="creators">
-    ${heading('Creadores de contenido: vídeos y partidas', '08')}
+    ${heading('Creadores de contenido: vídeos y partidas', '09')}
     <p class="section-intro">Descubre partidas comentadas, análisis de mazos y vídeos para seguir aprendiendo. Estos creadores publican principalmente en inglés.</p>
     <div class="creator-grid">${data.creators.map(creator => `<article class="creator">${anchor(creator.name, creator.url)}<p>${escape(creator.description)}</p></article>`).join('')}</div>
     <h3 class="group-heading">También para escuchar</h3>${resources([{name:'Death’s Door',description:'Pódcast dedicado a Sorcery: Contested Realm, en inglés.',links:[{label:'Escuchar el pódcast',url:'https://deathsdoorsorcerypod.substack.com/'}]}])}
   </section>
   <section class="section" id="reading">
-    ${heading('Lecturas y blogs', '09')}
+    ${heading('Lecturas y blogs', '10')}
     <p class="section-intro">Artículos, guías y revistas para profundizar en el juego, sus mazos y su comunidad. Estos recursos son principalmente en inglés.</p>
     <article class="reading-feature"><p class="eyebrow">Lectura destacada</p><h3>${escape(data.reading[0].name)}</h3><p>${escape(data.reading[0].description)}</p>${anchor(data.reading[0].links[0].label, data.reading[0].links[0].url, 'button primary')}</article>
     ${resources(data.reading.slice(1))}
     <h3 class="group-heading">Revistas de la comunidad</h3>${resources([{name:'The Ruby Core-ier',description:'Revista de la comunidad con estética retro, en inglés.',links:[{label:'Ver la revista',url:'https://www.patreon.com/c/therubycoreier/home'}]}])}
   </section>
   <section class="section" id="stores">
-    ${heading('Dónde conseguir tus cartas', '10')}
+    ${heading('Dónde conseguir tus cartas', '11')}
     <p class="section-intro">Con un mazo en mente, compara dónde conseguir las cartas que te faltan. En un mercado compras a distintos vendedores; en una tienda puedes encontrar producto sellado, cartas sueltas y, en algunos casos, una comunidad con la que jugar.</p>
-    <div class="store-list"><details open><summary>Mercados de cartas <small>Europa, Estados Unidos y Brasil</small></summary><div class="details-content">${resources(data.marketplaces)}</div></details>${['Europa','España','Estados Unidos'].map(region => `<details><summary>Tiendas de ${escape(region)}</summary><div class="details-content">${storeTable(region)}</div></details>`).join('')}</div>
+    <div class="store-list"><details open><summary>Mercados de cartas <small>Europa, Estados Unidos y Brasil</small></summary><div class="details-content">${resources(data.marketplaces)}</div></details>${['Europa','España','Estados Unidos'].map(region => `${region === 'Estados Unidos' ? `<div class="codex-panel"><p class="eyebrow">Producto sellado · Estados Unidos</p><h3>Team Covenant</h3><p>Tienda estadounidense donde comprar cajas de sobres y mazos de inicio de Sorcery. Además, colabora con Erik’s Curiosa mediante Covenant Fulfilled, una plataforma de distribución para tiendas autorizadas que facilita el acceso a producto y material de juego organizado.</p><div class="actions">${anchor('Ver Sorcery en Team Covenant', 'https://www.teamcovenant.com/games/sorcery-tcg', 'button primary')}${anchor('Guía de compra', 'https://blog.teamcovenant.com/sorcery-tcg-buyers-guide/', 'button')}</div><p class="credit">${anchor('Conoce la colaboración en la web oficial', 'https://sorcerytcg.com/news/erik-s-curiosa-expands-retail-access-through-covenant-fulfilled')}. Para pedidos desde otros países, consulta las condiciones de envío antes de comprar.</p></div>` : ''}<details><summary>Tiendas de ${escape(region)}</summary><div class="details-content">${storeTable(region)}</div></details>`).join('')}</div>
     <div class="price-panel"><h3>Cómo interpretar las referencias de precios</h3><p class="section-intro">Estas herramientas sirven para orientarte. Los precios pueden variar bastante entre Europa y Latinoamérica, e incluso dentro de cada región. Una referencia internacional o estadounidense no tiene por qué coincidir con lo que pagarás en tu país. Compara la edición, el idioma, el acabado, el estado de la carta y el coste total con envío.</p>${resources(data.priceTools)}</div>
     <p class="credit">Buena parte de la recopilación de tiendas parte del trabajo de <strong>Marc</strong>. Gracias por preparar aquella primera lista para la comunidad. La que presentamos aquí ha sido ampliada y actualizada; puedes consultar ${anchor('su guía original', data.guide)}.</p>
     <p class="note">Encontrarás otras tiendas vinculadas a cada grupo en ${anchor('Comunidades', '#communities')}. También puedes consultar el ${anchor('buscador oficial de tiendas', 'https://sorcerytcg.com/stores')}. Confirma con ellas el catálogo y las actividades actuales.</p>
   </section>
   <section class="section" id="dust">
-    ${heading('Dust: jugar también tiene recompensa', '11')}
+    ${heading('Dust: jugar también tiene recompensa', '12')}
     <p class="section-intro">Dust es el sistema de recompensas y fidelización de Sorcery. Acumulas puntos Dust y puedes canjearlos en la Dust Store por recompensas exclusivas.</p>
     <div class="dust-steps"><article><h3>Autentica tus cajas</h3><p>Al comprar cajas de sobres, busca su código y autentícalas en la web oficial para obtener Dust.</p></article><article><h3>Participa en eventos</h3><p>Los eventos del Sorcery Play Network también permiten obtener Dust. Las recompensas dependen del tipo de evento y de las condiciones del programa.</p></article><article><h3>Canjea tus puntos</h3><p>Utiliza Dust en la tienda de recompensas para conseguir cartas promocionales, tapetes y otros artículos exclusivos.</p></article></div>
     <p>Entre las recompensas hay versiones con arte alternativo y también cartas propias y exclusivas de este sistema, como <em>Court of Equity</em>, <em>Mobbed Court</em>, <em>Mock Court</em> y <em>Overflowing Court</em>. Los eventos también forman parte de la distribución de cartas promocionales exclusivas.</p>
     <div class="links">${anchor('Consultar el programa Dust y sus recompensas', 'https://sorcerytcg.com/dust')}${anchor('Conocer las cartas exclusivas de Dust', 'https://sorcerytcg.com/news/all-rise-new-dust-rewards-are-here')}</div>
   </section>
-  <section class="section" id="tools">${heading('Herramientas para tu mesa', '12')}<p class="section-intro">Aplicaciones para acompañar tus partidas presenciales: lleva la cuenta de la vida y los umbrales elementales desde el móvil.</p>${resources(data.tools)}</section>
-  <section class="section" id="proxies">${heading('Proxies y cartas personalizadas', '13')}<p class="section-intro">Prepara copias de prueba de cartas existentes para explorar un mazo antes de comprarlo, o da forma a tus propias ideas con las herramientas de creación. Acordad el uso de proxies y cartas personalizadas antes de jugar.</p>${resources(data.creationTools)}</section>
-  <section class="section" id="resources">${heading('Sigue explorando el reino', '14')}
-    <div class="community-list"><details><summary>Comunidades y ligas internacionales</summary><div class="details-content">${resources(data.international)}</div></details><details><summary>Recursos oficiales, imágenes y tipografía</summary><div class="details-content">${resources(data.officialResources)}</div></details><details><summary>Arte, lecturas y accesorios</summary><div class="details-content">${resources(data.additionalResources)}</div></details></div>
+  <section class="section" id="tools">${heading('Herramientas para tu mesa', '13')}<p class="section-intro">Aplicaciones para acompañar tus partidas presenciales: lleva la cuenta de la vida y los umbrales elementales desde el móvil.</p>${resources(data.tools)}</section>
+
+  <section class="section" id="international">
+    ${heading('Comunidades y ligas internacionales', '14')}
+    <p class="section-intro">Conecta con jugadores de otros países, encuentra más partidas y sigue la competición internacional. Estas comunidades se comunican principalmente en inglés.</p>
+    ${resources(data.international)}
+  </section>
+  <section class="section" id="resources">${heading('Sigue explorando el reino', '15')}
+    <div class="community-list"><details><summary>Recursos oficiales, imágenes y tipografía</summary><div class="details-content">${resources(data.officialResources)}</div></details><details><summary>Arte, lecturas y accesorios</summary><div class="details-content">${resources(data.additionalResources)}</div></details></div>
   </section>
 </main></div>
 <footer class="footer"><div class="wrap footer-inner"><div><img class="footer-logo" src="assets/sorcery-logo.png" width="136" height="55" alt="Sorcery: Contested Realm" loading="lazy"><p>Comunidad Hispana de Sorcery · Un proyecto independiente de jugadores.</p><p>Sorcery: Contested Realm y sus marcas pertenecen a Erik’s Curiosa Limited. Las ilustraciones pertenecen a sus respectivos artistas.</p><p>${anchor('Discord', data.discord)} · ${anchor('GitHub', 'https://github.com/sorcerytcg-hispano/sorcerytcg-hispano.github.io')} · ${anchor('Fuentes y agradecimientos', '#stores')}</p></div>${anchor('Volver arriba ↑', '#top', 'back-top')}</div></footer>

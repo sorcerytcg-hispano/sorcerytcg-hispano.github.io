@@ -31,6 +31,10 @@
       "Cartas y mazos"
     ],
     [
+      "proxies",
+      "Imprime tus proxies"
+    ],
+    [
       "league",
       "Liga Hispana"
     ],
@@ -55,8 +59,8 @@
       "Herramientas de mesa"
     ],
     [
-      "proxies",
-      "Proxies y cartas propias"
+      "international",
+      "Comunidades internacionales"
     ],
     [
       "resources",
@@ -306,24 +310,6 @@
         {
           "label": "Abrir el reglamento",
           "url": "https://drive.google.com/file/d/1BSgCjO2nsgOfL5ey_-L9afWw_LggOESB/view"
-        }
-      ]
-    },
-    {
-      "name": "La web oficial de Sorcery",
-      "description": "Además de las reglas, permite consultar las cartas, crear y compartir mazos y llevar un registro de tu colección. Las listas publicadas por jugadores son mazos comunitarios.",
-      "links": [
-        {
-          "label": "Explorar la web oficial",
-          "url": "https://sorcerytcg.com/"
-        },
-        {
-          "label": "Consultar las cartas",
-          "url": "https://sorcerytcg.com/cards"
-        },
-        {
-          "label": "Ver mazos comunitarios",
-          "url": "https://sorcerytcg.com/decks"
         }
       ]
     }
@@ -903,6 +889,16 @@
           "url": "https://cursedrealm.org/"
         }
       ]
+    },
+    {
+      "name": "Realms App",
+      "description": "Consulta las cartas de Sorcery y explora opciones para preparar tu mazo.",
+      "links": [
+        {
+          "label": "Consultar cartas en Realms App",
+          "url": "https://www.realmsapp.com/sorcery_tcg/cards"
+        }
+      ]
     }
   ],
   "priceTools": [
@@ -965,16 +961,6 @@
         {
           "label": "Preparar proxies",
           "url": "https://sorcererspellbook.com/"
-        }
-      ]
-    },
-    {
-      "name": "Editores y cartas personalizadas",
-      "description": "Recursos comunitarios para preparar cartas y explorar ideas propias.",
-      "links": [
-        {
-          "label": "Realms App",
-          "url": "https://www.realmsapp.com/sorcery_tcg/cards"
         }
       ]
     }
